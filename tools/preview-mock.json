@@ -1,0 +1,956 @@
+{
+ "apiBootstrap": {
+  "settings": {
+   "company_name": "",
+   "company_name_en": "",
+   "company_address": "",
+   "tax_id": "",
+   "company_phone": "",
+   "company_email": "",
+   "company_website": "",
+   "ot_multiplier": "1.5",
+   "standard_day_hours": "8",
+   "default_break_minutes": "60",
+   "ot_min_minutes": "0",
+   "slip_prefix": "SLIP",
+   "pay_date": "",
+   "slip_note": "ขอให้ท่านตรวจสอบรายการข้างต้นให้ถูกต้อง"
+  },
+  "employees": [
+   {
+    "employee_id": "EMP001",
+    "employee_name": "สมชาย ตัวอย่าง1",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000000",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP002",
+    "employee_name": "สมหญิง ตัวอย่าง2",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000001",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP003",
+    "employee_name": "มานี ตัวอย่าง3",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000002",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP004",
+    "employee_name": "มานะ ตัวอย่าง4",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000003",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP005",
+    "employee_name": "ปิติ ตัวอย่าง5",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000004",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP006",
+    "employee_name": "ชูใจ ตัวอย่าง6",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000005",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP007",
+    "employee_name": "วีระ ตัวอย่าง7",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000006",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP008",
+    "employee_name": "ดวงใจ ตัวอย่าง8",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000007",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP009",
+    "employee_name": "กมล ตัวอย่าง9",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000008",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP010",
+    "employee_name": "สุดา ตัวอย่าง10",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP011",
+    "employee_name": "ประเสริฐ ตัวอย่าง11",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000010",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP012",
+    "employee_name": "วันดี ตัวอย่าง12",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000011",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP013",
+    "employee_name": "อำนาจ ตัวอย่าง13",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000012",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP014",
+    "employee_name": "บุญมี ตัวอย่าง14",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000013",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP015",
+    "employee_name": "จันทร์เพ็ญ ตัวอย่าง15",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000014",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP016",
+    "employee_name": "ศักดิ์ชัย ตัวอย่าง16",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000015",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP017",
+    "employee_name": "นภา ตัวอย่าง17",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000016",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP018",
+    "employee_name": "ธนา ตัวอย่าง18",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000017",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP019",
+    "employee_name": "พรทิพย์ ตัวอย่าง19",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000018",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP020",
+    "employee_name": "สุริยา ตัวอย่าง20",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000019",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP021",
+    "employee_name": "อรุณี ตัวอย่าง21",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000020",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP022",
+    "employee_name": "เกศินี ตัวอย่าง22",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000021",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP023",
+    "employee_name": "ชัยวัฒน์ ตัวอย่าง23",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000022",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP024",
+    "employee_name": "รัตนา ตัวอย่าง24",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000023",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP025",
+    "employee_name": "สมศักดิ์ ตัวอย่าง25",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000024",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP026",
+    "employee_name": "ลำดวน ตัวอย่าง26",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000025",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP027",
+    "employee_name": "ทองดี ตัวอย่าง27",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000026",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP028",
+    "employee_name": "แก้วตา ตัวอย่าง28",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000027",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP029",
+    "employee_name": "บุญชู ตัวอย่าง29",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000028",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   },
+   {
+    "employee_id": "EMP030",
+    "employee_name": "ปราณี ตัวอย่าง30",
+    "type": "Part-time",
+    "hourly_rate": "",
+    "ot_rate": "",
+    "status": "ทำงาน",
+    "position": "PT005",
+    "start_date": "",
+    "phone": "0810000029",
+    "national_id": "",
+    "bank_name": "",
+    "bank_account": ""
+   }
+  ],
+  "positions": [
+   {
+    "position_id": "PT005",
+    "position_name": "บัญชี",
+    "department": "บัญชี",
+    "hourly_rate": 80,
+    "ot_rate": 120,
+    "status": "ใช้งาน",
+    "note": "ค่าแรงตั้งต้น — ผู้ใช้ต้องกำหนดเอง"
+   }
+  ],
+  "ssUrl": "#",
+  "today": "2026-09-14",
+  "logo": ""
+ },
+ "apiDashboard": {
+  "employees": 30,
+  "workedToday": 0,
+  "hoursTotal": 0,
+  "otTotal": 0,
+  "payEstimate": 0,
+  "avgHours": 0,
+  "avgPay": 0,
+  "slipsIssued": 0,
+  "pending": 0,
+  "verified": 0,
+  "error": 0,
+  "records": 0,
+  "trend": [
+   {
+    "m": "ม.ค.",
+    "total": 0
+   },
+   {
+    "m": "ก.พ.",
+    "total": 0
+   },
+   {
+    "m": "มี.ค.",
+    "total": 0
+   },
+   {
+    "m": "เม.ย.",
+    "total": 0
+   },
+   {
+    "m": "พ.ค.",
+    "total": 0
+   },
+   {
+    "m": "มิ.ย.",
+    "total": 0
+   },
+   {
+    "m": "ก.ค.",
+    "total": 0
+   },
+   {
+    "m": "ส.ค.",
+    "total": 0
+   },
+   {
+    "m": "ก.ย.",
+    "total": 0
+   },
+   {
+    "m": "ต.ค.",
+    "total": 0
+   },
+   {
+    "m": "พ.ย.",
+    "total": 0
+   },
+   {
+    "m": "ธ.ค.",
+    "total": 0
+   }
+  ],
+  "cost": [],
+  "recent": [],
+  "year": "2026"
+ },
+ "apiPositions": [
+  {
+   "position_id": "PT005",
+   "position_name": "บัญชี",
+   "department": "บัญชี",
+   "hourly_rate": 80,
+   "ot_rate": 120,
+   "status": "ใช้งาน",
+   "note": "ค่าแรงตั้งต้น — ผู้ใช้ต้องกำหนดเอง",
+   "emp_count": 30
+  }
+ ],
+ "apiSchedule": [],
+ "apiAdjustments": [],
+ "apiAttendance": [],
+ "apiCalcPayroll": {
+  "period": {
+   "from": "2026-09-01",
+   "to": "2026-09-14"
+  },
+  "rows": []
+ },
+ "apiPayrollReport": {
+  "period": {
+   "from": "2026-09-01",
+   "to": "2026-09-14"
+  },
+  "rows": [],
+  "headcount": 0,
+  "totals": {
+   "normal_hours": 0,
+   "ot_hours": 0,
+   "days": 0,
+   "normal_pay": 0,
+   "ot_pay": 0,
+   "diligence": 0,
+   "addition": 0,
+   "bonus": 0,
+   "gross": 0,
+   "wht": 0,
+   "deduction": 0,
+   "total_deduct": 0,
+   "net": 0,
+   "hours": 0
+  },
+  "byPosition": [],
+  "groups": [],
+  "pay_date": "2026-09-14"
+ },
+ "apiCostSummary": {
+  "year": "2026",
+  "base": 0,
+  "otPay": 0,
+  "addition": 0,
+  "bonus": 0,
+  "deduction": 0,
+  "total": 0,
+  "cost": [],
+  "trend": [
+   {
+    "m": "ม.ค.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "ก.พ.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "มี.ค.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "เม.ย.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "พ.ค.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "มิ.ย.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "ก.ค.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "ส.ค.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "ก.ย.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "ต.ค.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "พ.ย.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   },
+   {
+    "m": "ธ.ค.",
+    "base": 0,
+    "ot": 0,
+    "total": 0
+   }
+  ]
+ },
+ "apiActivityLog": [],
+ "apiEmployeeReport": {
+  "employee": {
+   "employee_id": "EMP001",
+   "employee_name": "สมชาย ตัวอย่าง1",
+   "type": "Part-time",
+   "hourly_rate": "",
+   "ot_rate": "",
+   "status": "ทำงาน",
+   "position": "PT005",
+   "start_date": "",
+   "phone": "0810000000",
+   "national_id": "",
+   "bank_name": "",
+   "bank_account": ""
+  },
+  "payroll": null,
+  "history": []
+ },
+ "apiSaveEmployee": {
+  "ok": true
+ },
+ "apiDeleteEmployee": {
+  "ok": true
+ },
+ "apiSavePosition": {
+  "ok": true
+ },
+ "apiDeletePosition": {
+  "ok": true
+ },
+ "apiSaveSchedule": {
+  "ok": true
+ },
+ "apiDeleteSchedule": {
+  "ok": true
+ },
+ "apiSaveAdjustment": {
+  "ok": true
+ },
+ "apiDeleteAdjustment": {
+  "ok": true
+ },
+ "apiSetStatus": {
+  "ok": true
+ },
+ "apiUpdateAttendance": {
+  "ok": true
+ },
+ "apiSaveSettings": {
+  "ok": true
+ },
+ "apiExportCsv": {
+  "ok": true,
+  "name": "apiExportCsv.file",
+  "base64": "ZGVtbw==",
+  "count": 3
+ },
+ "apiPayslipPdf": {
+  "ok": true,
+  "name": "apiPayslipPdf.file",
+  "base64": "ZGVtbw==",
+  "count": 3
+ },
+ "apiPayslipAll": {
+  "ok": true,
+  "name": "all.pdf",
+  "base64": "ZGVtbw==",
+  "count": 3
+ },
+ "apiPayrollRegisterPdf": {
+  "ok": true,
+  "name": "PayrollRegister.pdf",
+  "base64": "ZGVtbw==",
+  "count": 3
+ },
+ "apiListPayslips": {
+  "ok": true,
+  "total": 0,
+  "scanned": 0,
+  "truncated": false,
+  "rows": []
+ },
+ "apiPayslipFile": {
+  "ok": false,
+  "error": "ไม่พบไฟล์นี้แล้ว"
+ },
+ "apiSaveReportPdf": {
+  "ok": true,
+  "name": "Report.pdf"
+ },
+ "apiDeleteEmployees": {
+  "ok": true,
+  "deleted": 0,
+  "requested": 0
+ },
+ "apiDeletePositions": {
+  "ok": true,
+  "deleted": 0,
+  "requested": 0
+ },
+ "apiImport": {
+  "ok": true,
+  "added": 0,
+  "updated": 0,
+  "skipped": 0,
+  "unknownPos": [],
+  "cols": []
+ },
+ "apiImportMasterPair": {
+  "ok": true,
+  "positions": {
+   "added": 0,
+   "updated": 0,
+   "skipped": 0
+  },
+  "employees": {
+   "added": 0,
+   "updated": 0,
+   "skipped": 0,
+   "unknownPos": []
+  },
+  "added": 0,
+  "updated": 0,
+  "skipped": 0,
+  "unknownPos": []
+ },
+ "apiRepairMaster": {
+  "ok": true,
+  "positions": 1,
+  "employees": 30
+ },
+ "apiSeedDefaults": {
+  "ok": true,
+  "positions": [
+   {
+    "position_id": "PT001",
+    "position_name": "พนักงานฝ่ายผลิต",
+    "department": "Production",
+    "hourly_rate": 80,
+    "ot_rate": 120,
+    "status": "ใช้งาน",
+    "note": "แปรรูป/บรรจุ"
+   },
+   {
+    "position_id": "PT002",
+    "position_name": "พนักงานคลังสินค้า",
+    "department": "Warehouse",
+    "hourly_rate": 90,
+    "ot_rate": 135,
+    "status": "ใช้งาน",
+    "note": "รับ-จ่ายสินค้า"
+   },
+   {
+    "position_id": "PT003",
+    "position_name": "พนักงานขาย",
+    "department": "Sales",
+    "hourly_rate": 90,
+    "ot_rate": 135,
+    "status": "ใช้งาน",
+    "note": "หน้าร้าน/ออกบูธ"
+   },
+   {
+    "position_id": "PT004",
+    "position_name": "พนักงานทั่วไป",
+    "department": "General",
+    "hourly_rate": 80,
+    "ot_rate": 120,
+    "status": "ใช้งาน",
+    "note": "งานสนับสนุน"
+   },
+   {
+    "position_id": "PT005",
+    "position_name": "บัญชี",
+    "department": "บัญชี",
+    "hourly_rate": 80,
+    "ot_rate": 120,
+    "status": "ใช้งาน",
+    "note": "ค่าแรงตั้งต้น — ผู้ใช้ต้องกำหนดเอง"
+   }
+  ],
+  "settings": {
+   "company_name": "",
+   "company_name_en": "",
+   "company_address": "",
+   "tax_id": "",
+   "company_phone": "",
+   "company_email": "",
+   "company_website": "",
+   "ot_multiplier": "1.5",
+   "standard_day_hours": "8",
+   "default_break_minutes": "60",
+   "ot_min_minutes": "0",
+   "slip_prefix": "SLIP",
+   "pay_date": "2026-07-20",
+   "slip_note": "ขอให้ท่านตรวจสอบรายการข้างต้นให้ถูกต้อง"
+  }
+ },
+ "apiResetSlipCount": {
+  "ok": true
+ },
+ "apiSortMaster": {
+  "Employees": 30,
+  "Positions": 1
+ },
+ "apiOcrTimesheet": {
+  "ok": true,
+  "file_id": "MOCK_FILE_1",
+  "employee": {
+   "employee_id": "DEMO001",
+   "employee_name": "ตัวอย่าง (mock)"
+  },
+  "model": "gemini (mock)",
+  "header": {
+   "name": "ตัวอย่าง (mock)",
+   "employee_id": "DEMO001",
+   "period_from": "2026-09-01",
+   "period_to": "2026-09-15"
+  },
+  "rows": [
+   {
+    "work_date": "2026-09-01",
+    "check_in": "08:05",
+    "check_out": "17:30",
+    "raw_date": "01/07",
+    "raw_in": "0805",
+    "raw_out": "1730",
+    "unreadable": false,
+    "future": false,
+    "note": ""
+   },
+   {
+    "work_date": "2026-09-02",
+    "check_in": "09:00",
+    "check_out": "18:30",
+    "raw_date": "02/07",
+    "raw_in": "0900",
+    "raw_out": "1830",
+    "unreadable": false,
+    "future": false,
+    "note": ""
+   },
+   {
+    "work_date": "2026-09-03",
+    "check_in": "08:00",
+    "check_out": "17:00",
+    "raw_date": "03/07",
+    "raw_in": "0800",
+    "raw_out": "1700",
+    "unreadable": false,
+    "future": false,
+    "note": ""
+   },
+   {
+    "work_date": "",
+    "check_in": "",
+    "check_out": "17:00",
+    "raw_date": "0?/07",
+    "raw_in": "8:?5",
+    "raw_out": "1700",
+    "unreadable": true,
+    "future": false,
+    "note": "ลายมือเลอะ อ่านวันที่/เวลาเข้าไม่ได้"
+   },
+   {
+    "work_date": "2026-09-24",
+    "check_in": "08:00",
+    "check_out": "17:00",
+    "raw_date": "24/07",
+    "raw_in": "0800",
+    "raw_out": "1700",
+    "unreadable": false,
+    "future": true,
+    "note": "วันที่ยังมาไม่ถึง"
+   }
+  ],
+  "warnings": [
+   "รูปเอียงเล็กน้อย — ถ้าตัวเลขผิดหลายแถว ลองถ่ายใหม่ให้เห็นสี่เหลี่ยมดำครบ 4 มุม"
+  ]
+ },
+ "apiSaveTimesheetRows": {
+  "ok": true,
+  "count": 5,
+  "ids": [
+   "ATT2607141000011",
+   "ATT2607141000012",
+   "ATT2607141000013",
+   "ATT2607141000014",
+   "ATT2607141000015"
+  ]
+ },
+ "apiDo": "{\"result\":{\"ok\":true},\"fresh\":{}}",
+ "apiSaveLogo": {
+  "ok": true,
+  "logo": ""
+ },
+ "apiRemoveLogo": {
+  "ok": true
+ },
+  "apiTsOcrReady": {"ready": true, "ok": true, "model": "gemini-3.5-flash", "error": ""}
+}
